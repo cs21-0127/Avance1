@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignación Elementos Básicos HTML y CSS</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        .fixed-element {
+            position: fixed;
+            top: 3%;
+            right: -3%;
+            transform: translate(-50%, -50%);
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        li:last-child {
+            border-bottom: none;
+        }
+
+        iframe {
+            border: 1px solid #007bff;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #007bff;
+            padding: 10px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(3, 1fr);
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        .grid-item {
+            background-color: #ffffff;
+            padding: 20px;
+            border: 1px solid #007bff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fixed-element">Asignacion HTML / CSS</div>
+    <h2>Elementos HTML mas usados:</h5>
+        <hr>
+        <ul>
+            <li><strong>head:</strong> Para información sobre el documento.</li>
+            <br>
+            <li><strong>body:</strong> Para el contenido.</li>
+            <br>
+            <li><strong>div:</strong> división o bloque dentro del contenido, el más común para componer elementos
+                complejos
+            </li>
+            <br>
+            <li><strong>a:</strong> Para enlaces</li>
+            <br>
+            <li><strong>strong:</strong> para poner el texto en negrita</li>
+            <br>
+            <li><strong>br:</strong> Para saltos de línea</li>
+            <br>
+            <li><strong>p:</strong> Para párrafos</li>
+            <br>
+            <li><strong>h1 ... h6:</strong> Para títulos dentro del contenido</li>
+            <br>
+            <li><strong>img:</strong> Para añadir imágenes al documento</li>
+        </ul>
+        <hr>
+        <h2>Elementos CSS mas usados:</h5>
+            <hr>
+            <ul>
+                <li><strong>Font-family:</strong> Define la familia tipográfica.</li>
+                <br>
+                <li><strong>Font-size:</strong> Define el tamaño de la fuente y el valor se puede escribir en pixels o
+                    en
+                    ems.</li>
+                <br>
+                <li><strong>Color:</strong> Define el color de la tipografía.</li>
+                <br>
+                <li><strong>Width:</strong> Define el ancho de un elemento, el valor se puede escribir en pixels, ems o
+                    porcentaje.</li>
+                <br>
+                <li><strong>Max-width o min-width:</strong> Definen el ancho máximo o mínimo de un elemento. Muy
+                    importante
+                    en sitios adaptables.</li>
+                <br>
+                <li><strong>Height:</strong> Define el alto de un elemento, el valor se puede escribir en pixels, ems o
+                    porcentaje.</li>
+                <br>
+                <li><strong>Max-height o min-height:</strong> Definen el alto máximo o mínimo de un elemento. Muy
+                    importante
+                    en sitios adaptables.</li>
+                <br>
+                <li><strong>Padding:</strong> Es la distancia desde el borde de un elemento hasta su contenido.</li>
+                <br>
+                <li><strong>Margin:</strong> Es la distancia entre un elemento y otro (desde el borde de un elemento
+                    hacia afuera).</li>
+                <br>
+                <li><strong>Border:</strong> Define el borde de un elemento, su color, su estilo y grosor.</li>
+                <br>
+                <li><strong>Background:</strong> Define los fondos de un objeto. El fondo puede ser una imagen o un
+                    color.</li>
+            </ul>
+            <hr>
+            <h2>Dirección de la Universidad Pedro Henriquez Urena:</h5>
+                <hr>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60545.909147010905!2d-69.93563575736786!3d18.47825359729898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89f362e578d3%3A0x19d59fe09af95898!2sUniversidad%20Nacional%20Pedro%20Henr%C3%ADquez%20Ure%C3%B1a%20(UNPHU)!5e0!3m2!1ses!2sdo!4v1728632199286!5m2!1ses!2sdo"
+                    width="1000" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <hr>
+                <h2>Video de YouTube sobre Programación Web:</h5>
+                    <hr>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/CcKeshV-910?si=GF0dWOlMXdVBSLSV"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <hr>
+                    <h2>Tabla con bordes visibles:</h5>
+                        <hr>
+                        <table>
+                            <tr>
+                                <th>Elementos de HTML</th>
+                                <th>Elementos de CSS</th>
+                            </tr>
+                            <tr>
+                                <td>h1</td>
+                                <td>Height</td>
+                            </tr>
+                            <tr>
+                                <td>br</td>
+                                <td>Padding</td>
+                            </tr>
+                            <tr>
+                                <td>strong</td>
+                                <td>Background</td>
+                            </tr>
+                        </table>
+                        <br>
+
+                        <hr>
+                        <h2>Grid con elementos:</h5>
+                            <hr>
+                            <div class="grid-container">
+                                <div class="grid-item">Carousel</div>
+                                <div class="grid-item">Navs</div>
+                                <div class="grid-item">Navbar</div>
+                                <div class="grid-item">Formularios</div>
+                                <div class="grid-item">Pagination</div>
+                                <div class="grid-item">Jumbotron</div>
+                            </div>
+</body>
+
+</html>
